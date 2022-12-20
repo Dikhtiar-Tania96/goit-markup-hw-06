@@ -950,6 +950,22 @@ background-color: var(--accent-color);
   background-color: var(--accent-color)
 }
 
+
+.footer-input{
+ margin-left: 93px;
+}
+
+.title-input{
+  color:var(--white-color);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+
+}
+
+
 /*footer portfolio*/
 .footer-style { 
   padding-top: 60px;
