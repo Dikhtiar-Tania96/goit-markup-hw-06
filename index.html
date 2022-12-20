@@ -477,17 +477,39 @@
       <div class="footer-input">
         <p class="title-input">Підпишіться на розсилку</p>
 
+        <!-- <label for="e-mail">E-mail</label> -->
+        <input class="input" type="e-mail" name="e-mail" placeholder="E-mail"/>
+
+        <button type="submit" class="button-footer"> Підписатись
+         <svg class="footer-icon" width="24px" height="24px">
+          <use href="./images/symbol-defs.svg#icon-send"></use>
+         </svg>
+        </button>
+
       </div>
     </div>
     </footer>
 
     <div  class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <h2 class="title-modal">Залиште свої дані, ми вам передзвонимо</h2>
         <button class="button-modal-close" type="button" data-modal-close>
           <svg class="modal-close" width="18px" height="18px">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
+        <form>
+          <label for="name">Ім'я</label>
+          <input type="text" name="name" id="name">
+<br>
+          <label for="tel">Телефон</label>
+          <input type="tel" name="tel" id="tel">
+<br>
+          <label for="e-mail">Пошта</label>
+          <input type="mail" name="mail" id="e-mail">
+
+          <button class="button-modal">Відправити</button>
+        </form>
       </div>
     </div>
 
