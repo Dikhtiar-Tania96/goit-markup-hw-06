@@ -193,10 +193,11 @@ position: relative;
   margin-left: 124px;
 }
 
-.checkbox{
+.field-checkbox{
   font-size: 14px;
   color: var(--text-color);
   font-size: 14px;
+  
 }
 
 .active-checkbox{
@@ -211,6 +212,23 @@ position: relative;
   justify-content: center;
   align-items: center;
   
+}
+
+.checkbox{
+  appearance: none;
+}
+
+.checkbox-icon{
+  margin-right: 4px;
+  fill: transparent;
+  border: 2px solid var(--second-color);
+  border-radius: 2px;
+}
+
+.checkbox:checked + .checkbox-icon{
+  fill: var(--white-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .form-field-comment{
