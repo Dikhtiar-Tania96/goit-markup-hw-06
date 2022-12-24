@@ -194,6 +194,9 @@ position: relative;
 }
 
 .field-checkbox{
+  cursor: pointer;
+  position: relative;
+  padding-left: 20px;
   font-size: 14px;
   color: var(--text-color);
   font-size: 14px;
@@ -209,8 +212,8 @@ position: relative;
 .form-field-checkbox{
   display: flex;
   margin-bottom: 30px;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   
 }
 
@@ -219,6 +222,7 @@ position: relative;
 }
 
 .checkbox-icon{
+  position: absolute;
   margin-right: 4px;
   fill: transparent;
   border: 2px solid var(--second-color);
