@@ -212,21 +212,19 @@ position: relative;
 .form-field-checkbox{
   display: flex;
   margin-bottom: 30px;
-  /* justify-content: center;
-  align-items: center; */
-  
+
 }
 
 .checkbox{
+  position: relative;
   appearance: none;
 }
 
 .checkbox-icon{
-  position: absolute;
-  margin-right: 4px;
-  fill: transparent;
-  border: 2px solid var(--second-color);
-  border-radius: 2px;
+position: absolute;
+ border: 2px solid var(--title-color);
+ border-radius: 2px;
+ fill: transparent;
 }
 
 .checkbox:checked + .checkbox-icon{
